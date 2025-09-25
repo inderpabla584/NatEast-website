@@ -1,0 +1,356 @@
+body{
+  margin: 0px 0px 0px 0px;
+  background: linear-gradient(454deg, rgb(0, 120, 167), rgb(0, 208, 255));
+  font-family: Arial, Helvetica, sans-serif;
+html {
+  overflow: hidden;
+
+}
+   
+  .navbar {
+    width: 100%;
+    background-color: rgb(0, 120, 167);
+    overflow: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 137%;
+    padding: 40px 52px;
+    transition-duration: 0.6s;
+    justify-content: right;
+
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(0, 208, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .navbar h3 {
+    color: white;
+    background-color: rgb(0, 120, 167);
+    font-size: 375%;
+    text-align: left;
+    margin: 0;
+    cursor: default;
+    padding: 0px 60px;
+    justify-content: left;
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    
+  }
+
+  .slides {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+    color:#fff;
+    
+  }
+
+  .slides img {
+    width:39rem;
+  }
+  
+  .slides h2 {
+    color: white;
+    font-size: 30px;
+  }
+
+  .slides a {
+    color: white;
+    
+    
+
+  }
+
+  .slides a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  #footer {
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(0, 120, 167);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    overflow: auto;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 30%;
+  }
+
+  .main h1 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.61);
+  }
+
+  .mortgage-container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0 30px;
+  }
+
+  .input-group input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .input-container button {
+    padding: 5px;
+    font-size: 18px;
+    width: 80%;
+    margin-top: 5px;
+    align-self: center;
+    background-color: rgb(0, 120, 167);;
+    border: 5px solid rgb(0, 92, 128);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .input-container button:active {
+    background-color: rgb(0, 82, 114);
+    transform: translateY(4px);
+  }
+ 
+
+
+  .input-container button:hover {
+    background-color: rgb(0, 183, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    width: 70%;
+    height: 32rem;
+    position: relative;
+  }
+
+  .monthly-payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 100%;
+    margin: 30px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    font-size: 30px;
+  }
+
+  .monthly-payment h1 {
+    font-size: 50px;
+  }
+
+  .total-interest, .total-principal, .total-amount {
+    display: flex;
+    margin: 2px;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .contact-form-container {
+    padding: 20px;
+    border-radius: 8px;
+    border: 0.2rem solid rgb(0, 92, 128);
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    margin-left: 20rem;
+  }
+
+  h2 {
+      margin-top: 0;
+      color: #ffffff;
+      text-align: center;
+  }
+
+  .form-group {
+      margin-bottom: 1rem;
+  }
+
+  label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #ffffff;
+  }
+
+  input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 1rem;
+  }
+
+  textarea {
+      resize: vertical;
+  }
+
+  .error-message {
+      color: red;
+      font-size: 0.875rem;
+      display: none;
+  }
+
+  .submit-button {
+      padding: 5px;
+      font-size: 18px;
+      width: 100%;
+      margin-top: 5px;
+      align-self: center;
+      background-color: rgb(0, 120, 167);;
+      border: 5px solid rgb(0, 92, 128);
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+  }
+
+  .submit-button:hover {
+      background-color: rgb(0, 183, 255);
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .contact-form-container button:active {
+    background-color: rgb(0, 82, 114);
+    transform: translateY(4px);
+  }
+
+
+  .accordion {
+    background-color: rgb(0, 120, 167); 
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 886px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    position: relative;
+    left: 20%;
+    top: -30px;
+    font-size: 20px;
+  }
+
+  .active, .accordion:hover {
+    background-color: rgb(0, 183, 255);
+    border: 5px solid rgb(0, 92, 128); 
+  }
+
+  .accordion:after {
+    content: '\002B';
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+  
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(0, 92, 128);; 
+    color: #ffffff;
+    font-size: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 850px;
+    text-align: left;
+    position: relative;
+    left: 20%;
+    top: -30px;
+  
+  }
+
+  #faq-header{
+    background-color: rgb(0, 120, 167); 
+    color: #ffffff;
+    padding: 18px;
+    width: 850px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    position: relative;
+    left: 20%;
+    font-size: 40px;
+    margin-top: 100px;
+  }
+
+
+  #back-to-top {
+    display: none; 
+    position: fixed;
+    bottom: 40px; 
+    right: 30px; 
+    z-index: 99; 
+    border: 5px solid rgb(0, 92, 128);
+    outline: none;
+    background-color: rgb(0, 120, 167);
+    color: white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+
+  #back-to-top:hover {
+    background-color: rgb(0, 183, 255);
+  }
+
+}
